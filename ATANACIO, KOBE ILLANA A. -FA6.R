@@ -6,6 +6,7 @@ n <- 1000
 n
 U <- runif(n)
 # Generating numbers from Geometric distribution 
+rgeom(n,p)
 X <- ceiling(log(U)/log(q))
 # Calculating and Printing of mean
 mean_x <- mean(X)
